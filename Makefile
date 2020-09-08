@@ -77,11 +77,12 @@ build/template: | build/robot.jar build
 	 --prefix "curato: https://fairplus-project.eu/ontologies/curato/" \
 	 --ontology-iri "https://fairplus-project.eu/ontologies/curato/" \
 	 --output ./build/curatO-edit.owl 
-	$(ROBOT) annotate \
-  	 --input ./build/curatO-edit.owl \
-	 --ontology-iri "$(OBO)/curatO.owl" \
-	 --version-iri "$(OBO)/curatO/$(TODAY)/curatO.owl" \
-	 --annotation owl:versionInfo "$(TODAY)" \
+# 	$(ROBOT) annotate \
+#   	 --input ./build/curatO-edit.owl \
+# 	 --ontology-iri "$(OBO)/curatO.owl" \
+# 	 --version-iri "$(OBO)/curatO/$(TODAY)/curatO.owl" \
+# 	 --annotation owl:versionInfo "$(TODAY)" \
+# 	 --annotation-file src/annotations.ttl
 
 
 # merge components to generate curatO-merged
@@ -105,12 +106,19 @@ build/reason: build/robot.jar build
 	--input ./build/curatO-merged-with-imports.owl \
 	--reasoner HermiT \
 	--exclude-tautologies all \
-	annotate \
+	--output ./build/curatO-reasoned.owl
+
+build/annotate: build/robot.jar build
+	@echo "Adding Metadata $< to $@" && \
+	$(ROBOT) annotate \
+	--input ./build/curatO-reasoned.owl \
 	--ontology-iri "$(OBO)/curatO.owl" \
 	--version-iri "$(OBO)/curatO/$(TODAY)/curatO.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
-	--output ./build/curatO-reasoned.owl
+	--annotation-file src/annotations.ttl \
+	--output ./build/curatO.owl
+# 	--output ./build/$(TODAY)/curatO.owl
 
-release: build/template build/merge build/reason 
+release: build/template build/merge build/reason build/annotate
 	@echo "A new release is made"
 
