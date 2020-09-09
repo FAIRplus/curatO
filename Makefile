@@ -52,9 +52,9 @@ build:
 # ===============================
 
 # download the most recent build of ROBOT
-build/robot.jar: | build
-	@echo "Getting ROBOT" && \
-	curl -L https://github.com/ontodev/robot/releases/download/v1.7.0/robot.jar > ./build/robot.jar
+# build/robot.jar: | build
+# 	@echo "Getting ROBOT" && \
+# 	curl -L https://github.com/ontodev/robot/releases/download/v1.7.0/robot.jar > ./build/robot.jar
 
 # get IAO and BFO:
 build/bfo-iao: | build
@@ -73,7 +73,7 @@ clean: | release
 # generate curatO-edit from template file:
 build/template: | build/robot.jar build
 	@echo "Creating from Template $< to $@" && \
-	$(ROBOT) template --template src/curatO-curation-ontology-capabilities-all-classes-2020-09-07.csv  \
+	$(ROBOT) template --template src/curatO-curation-ontology-capabilities-all-classes-2020-09-08.csv  \
 	 --prefix "curato: https://fairplus-project.eu/ontologies/curato/" \
 	 --ontology-iri "https://fairplus-project.eu/ontologies/curato/" \
 	 --output ./build/curatO-edit.owl 
