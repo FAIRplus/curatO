@@ -24,3 +24,11 @@ https://docs.google.com/spreadsheets/d/1MvNGSWdYN0hzL6qg7a3bdv28yjiKdsbWh93yKxDN
   - Oya Beyan
   - Emiliano Reynares
   
+## License:
+
+http://creativecommons.org/licenses/by/4.0/
+
+## Tools:
+Developed using [Robot tool](http://robot.obolibrary.org)
+
+R.C. Jackson, J.P. Balhoff, E. Douglass, N.L. Harris, C.J. Mungall, and J.A. Overton. [ROBOT: A tool for automating ontology workflows](https://rdcu.be/bMnHT). BMC Bioinformatics, vol. 20, July 2019.
