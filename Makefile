@@ -64,7 +64,7 @@ build/bfo-iao: | build
 
 clean: | release
 	@echo "Removing build files" && \
-	rm -rf build
+	rm -rf build/*.owl
 
 # ===============================
 #           CURATO TASKS
@@ -116,7 +116,7 @@ build/annotate: build/robot.jar build
 	--version-iri "$(OBO)/curatO/$(TODAY)/curatO.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--annotation-file src/annotations.ttl \
-	--output ./build/curatO.owl
+	--output curatO.owl
 # 	--output ./build/$(TODAY)/curatO.owl
 
 release: build/template build/merge build/reason build/annotate
