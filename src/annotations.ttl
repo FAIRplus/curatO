@@ -1,0 +1,21 @@
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix curato: <https://github.com/FAIRplus/curatO/blob/dev/build/curatO-edit.owl> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix terms: <http://purl.org/dc/terms/> .
+
+curato:curatO-edit.owl
+  rdf:type owl:Ontology ;
+  rdfs:comment "Comment from annotations.ttl file." ;
+  terms:license "http://creativecommons.org/licenses/by/4.0/" ;
+  terms:description "an ontology to support FAIR Maturity Evaluation. produced by IMI FAIRplus Consortium" ;
+  dc:creator "Philippe Rocca-Serra" ;
+  dc:contributor "Oya Deniz Beyan" ;
+  dc:contributor "Fuqi Xu" ;
+  dc:contributor "Danielle Welter" ;
+  dc:contributor "Ibrahim Iemam" ;
+  dc:contributor "Nick Juty" ;
+  dc:contributor "Carole Goble" ;
+  dc:contributor "Andrea Splendiani" ;
+  terms:title "curatO" .
