@@ -1605,6 +1605,153 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- https://fairplus-project.eu/ontologies/curato/201 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/201">
+        <rdfs:domain rdf:resource="https://fairplus-project.eu/ontologies/curato/0000146"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation between a maturity indicator and a process</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_denotes_maturity_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/202 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/202">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000098"/>
+                    <rdf:Description rdf:about="https://fairplus-project.eu/ontologies/curato/0000028"/>
+                    <rdf:Description rdf:about="https://fairplus-project.eu/ontologies/curato/200"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a information entity and data format specification</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_complies_with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/203 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/203">
+        <rdfs:domain rdf:resource="https://fairplus-project.eu/ontologies/curato/200"/>
+        <rdfs:range rdf:resource="https://fairplus-project.eu/ontologies/curato/0000028"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between an information content entity and a data model</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_formalized_as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/204 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/204">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <rdfs:range rdf:resource="https://fairplus-project.eu/ontologies/curato/200"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a software or a template and domain-specific annotation requirements</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_implements</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/205 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/205">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://fairplus-project.eu/ontologies/curato/0000028"/>
+                    <rdf:Description rdf:about="https://fairplus-project.eu/ontologies/curato/200"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a domain-specific annotation requirement and software or template</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_implemented_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/206 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/206">
+        <rdfs:domain rdf:resource="https://fairplus-project.eu/ontologies/curato/0000063"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a process of validation and rule</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_performed_using</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/207 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/207">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <rdfs:range rdf:resource="https://fairplus-project.eu/ontologies/curato/200"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a process of validation and rule</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_defined_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/208 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/208">
+        <rdfs:domain rdf:resource="https://fairplus-project.eu/ontologies/curato/200"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000594"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a domain-specific annotation requirement and website</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_available_from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/209 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/209">
+        <rdfs:domain rdf:resource="https://fairplus-project.eu/ontologies/curato/200"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000055"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a  rule and a domain specific annotation requirement</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_defines</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/210 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/210">
+        <rdfs:domain rdf:resource="https://fairplus-project.eu/ontologies/curato/0000097"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a file format and a file format specification</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_conforms_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/211 -->
+
+    <owl:ObjectProperty rdf:about="https://fairplus-project.eu/ontologies/curato/211">
+        <rdfs:domain rdf:resource="https://fairplus-project.eu/ontologies/curato/0000067"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a relation holding between a certification and an organization</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CURATO_certified_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2183,6 +2330,24 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/119-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/101-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/100-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
         <owl:annotatedTarget xml:lang="en">Temporal region doesn&apos;t have a closure axiom because the subclasses don&apos;t exhaust all possibilites. An example would be the mereological sum of a temporal instant and a temporal interval that doesn&apos;t overlap the instant. In this case the resultant temporal region is neither 0-dimensional nor 1-dimensional</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000003"/>
@@ -2205,24 +2370,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <owl:annotatedTarget xml:lang="en">Every temporal region t is such that t occupies_temporal_region t. (axiom label in BFO2 Reference: [119-002])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/119-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (r) (if (TemporalRegion r) (occupiesTemporalRegion r r))) // axiom label in BFO2 CLIF: [119-002] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/119-002"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x y) (if (and (TemporalRegion x) (occurrentPartOf y x)) (TemporalRegion y))) // axiom label in BFO2 CLIF: [101-001] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/101-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
-        <owl:annotatedTarget>(forall (x) (if (TemporalRegion x) (Occurrent x))) // axiom label in BFO2 CLIF: [100-001] </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/100-001"/>
     </owl:Axiom>
     
 
@@ -2281,6 +2428,18 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/095-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/096-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
         <owl:annotatedTarget xml:lang="en">Each spatiotemporal region at any time t projects_onto some spatial region at t. (axiom label in BFO2 Reference: [099-001])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/099-001"/>
@@ -2326,18 +2485,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <owl:annotatedTarget>(forall (x) (if (SpatioTemporalRegion x) (exists (y) (and (TemporalRegion y) (temporallyProjectsOnto x y))))) // axiom label in BFO2 CLIF: [098-001] </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/098-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
-        <owl:annotatedTarget xml:lang="en">A spatiotemporal region is an occurrent entity that is part of spacetime. (axiom label in BFO2 Reference: [095-001])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/095-001"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
-        <owl:annotatedTarget xml:lang="en">All parts of spatiotemporal regions are spatiotemporal regions. (axiom label in BFO2 Reference: [096-001])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/096-001"/>
     </owl:Axiom>
     
 
@@ -8192,7 +8339,7 @@ No imports</obo:IAO_0000115>
     <!-- https://fairplus-project.eu/ontologies/curato/0000093 -->
 
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metric</rdfs:label>
     </owl:Class>
@@ -8202,7 +8349,7 @@ No imports</obo:IAO_0000115>
     <!-- https://fairplus-project.eu/ontologies/curato/0000094 -->
 
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000001"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality metric</rdfs:label>
     </owl:Class>
@@ -8961,6 +9108,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate the size of the grain in the physical world. by abstraction, a quality to indicate how atomic an entity is.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granularity level</rdfs:label>
     </owl:Class>
     
@@ -8971,6 +9119,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000163">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000162"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate a small size of the entities making up an assembly.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fine</rdfs:label>
     </owl:Class>
     
@@ -8981,6 +9130,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000164">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000162"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate a lack of refinement of the entities making up an assembly.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coarse</rdfs:label>
     </owl:Class>
     
@@ -8991,6 +9141,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000165">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000162"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate the medium size of the entities making up an assembly.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermediate</rdfs:label>
     </owl:Class>
     
@@ -9001,6 +9152,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate how easy or hard it is to locate/find an entity</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">findability</rdfs:label>
     </owl:Class>
     
@@ -9011,6 +9163,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000167">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate that an information entity is indexed by global search engines such as Bing,Google,Yandex,DuckDuckGo..)</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">search engine referenced</rdfs:label>
     </owl:Class>
     
@@ -9021,6 +9174,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000168">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate that an information entity is markup with schema.org ontology terms</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema.org annotated</rdfs:label>
     </owl:Class>
     
@@ -9031,6 +9185,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000169">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate that an information entity is available from a data archive</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deposited in public archive</rdfs:label>
     </owl:Class>
     
@@ -9041,6 +9196,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000170">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate that an information entity is available from a data archive and has been assigned a persistent url</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assigned with a persistent http resolveable identifier</rdfs:label>
     </owl:Class>
     
@@ -9051,6 +9207,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000171">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000166"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate that an information entity metadata is conformant to datacite metadata schema and has been assigned a Digital Object Identifier (DOI)</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi-ed</rdfs:label>
     </owl:Class>
     
@@ -9061,6 +9218,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate how easy or hard it is to understand how an entity may be access and then access it</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accessibility</rdfs:label>
     </owl:Class>
     
@@ -9071,6 +9229,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000173">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000172"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate that no access to the entity is possible other than physical site visit</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enclaved</rdfs:label>
     </owl:Class>
     
@@ -9081,6 +9240,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000174">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000172"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate that the entity can only be accessed provided the necessary amount of credentials and authorization</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">access-controlled</rdfs:label>
     </owl:Class>
     
@@ -9091,6 +9251,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate how systems are capable of interacting and working together automatically</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interoperability</rdfs:label>
     </owl:Class>
     
@@ -9101,6 +9262,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000176">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000175"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality which indicates the entity is conformant to an information specification</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standard compliant</rdfs:label>
     </owl:Class>
     
@@ -9111,6 +9273,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000177">
         <rdfs:subClassOf rdf:resource="https://fairplus-project.eu/ontologies/curato/0000175"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality which indicates the entity is conformant to an information specification as assessed by a certification body</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standard certified</rdfs:label>
     </owl:Class>
     
@@ -9121,6 +9284,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicate how easy or hard it is to mobilize and reuse an information entity , for instance in the context of meta-analysis and data integration.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reusability</rdfs:label>
     </owl:Class>
     
@@ -9230,6 +9394,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the role of an organization to deliver information technology services.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT provider</rdfs:label>
     </owl:Class>
     
@@ -9240,6 +9405,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the role of a personel in an organization to operate on data once clearance has been obtained from a data controller or data custodian</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data processor</rdfs:label>
     </owl:Class>
     
@@ -9250,6 +9416,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the role of a personel to supervise, organize and manage protection and privacy of data.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/obligations/controller-processor/what-data-controller-or-data-processor_en</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data controller</rdfs:label>
     </owl:Class>
@@ -9261,6 +9428,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the role of a personel to  conceive information technology solution and computer code in the form of deployable software.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">software engineer</rdfs:label>
     </owl:Class>
     
@@ -9271,6 +9439,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the role of a personel to preserve, annotate, archive digital assets produced or purchased by an organization.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data curator</rdfs:label>
     </owl:Class>
     
@@ -9281,6 +9450,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a plan documenting the resources and practices, such as ontologies, data formats, information standards and backup, protection measures respectively with the objective of ensuring proper data management.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data management plan</rdfs:label>
     </owl:Class>
     
@@ -9291,6 +9461,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a document outlining the semantic resources, terminologies, controlled vocabularies and data format against which curation will be applied. Such document. also specifies the steps requires to version datasets following curation action.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curation policy</rdfs:label>
     </owl:Class>
     
@@ -9301,6 +9472,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data dictionnary is a document listing all the variables and their values sets for categorical variables or numerical ranges of values for continuous values, as well as associated units, formulas for computed derived variables, codes and rules for dealing with missing value. </obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data dictionary</rdfs:label>
     </owl:Class>
     
@@ -9311,6 +9483,7 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a material transfer agreement (MTA) is a contract that governs the transfer of tangible research materials between two organizations, when the recipient intends to use it for his or her own research purposes. It is usually legally binding and requires legal representatives of said organizations to supervised the writing and approval of the document.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material transfer agreement</rdfs:label>
     </owl:Class>
@@ -9322,7 +9495,51 @@ No imports</obo:IAO_0000115>
     <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data access agreement (DAA) is a document to specify the terms under which users are provided access to the specified data, and to obtain explicit acceptance of those terms by a user prior to granting him or her access to the data. It is usually legally binding and requires legal representatives of said organizations to supervised the writing and approval of the document</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data access agreement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/198 -->
+
+    <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicates if an entity can be obtained</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">availability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/199 -->
+
+    <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a quality to indicates if an enttity is coherent, without discrepancies</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consistency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/200 -->
+
+    <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domain-specific annotation requirements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/212 -->
+
+    <owl:Class rdf:about="https://fairplus-project.eu/ontologies/curato/212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a process in which a process is certified to comply against a set of specifications</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">certification</rdfs:label>
     </owl:Class>
     
 
@@ -9575,6 +9792,17 @@ No imports</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/obi.owl -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi.owl"/>
+    
+
+
+    <!-- https://fairplus-project.eu/ontologies/curato/213 -->
+
+    <owl:NamedIndividual rdf:about="https://fairplus-project.eu/ontologies/curato/213">
+        <rdf:type rdf:resource="https://fairplus-project.eu/ontologies/curato/0000093"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data is reported by following community specific minimum information guidelines (an instance of metric generated by FAIRplus)</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSTANCE_metric_F+S02</rdfs:label>
+    </owl:NamedIndividual>
     
 
 

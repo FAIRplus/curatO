@@ -64,7 +64,7 @@ build/bfo-iao: | build
 
 clean: | release
 	@echo "Removing build files" && \
-	rm -rf build
+	rm -rf build/*.owl
 
 # ===============================
 #           CURATO TASKS
@@ -73,7 +73,7 @@ clean: | release
 # generate curatO-edit from template file:
 build/template: | build/robot.jar build
 	@echo "Creating from Template $< to $@" && \
-	$(ROBOT) template --template src/curatO-curation-ontology-capabilities-all-classes-2020-09-08.csv  \
+	$(ROBOT) template --template src/curatO-curation-ontology-capabilities-all-classes-2020-10-13.csv  \
 	 --prefix "curato: https://fairplus-project.eu/ontologies/curato/" \
 	 --ontology-iri "https://fairplus-project.eu/ontologies/curato/" \
 	 --output ./build/curatO-edit.owl 
@@ -116,7 +116,7 @@ build/annotate: build/robot.jar build
 	--version-iri "$(OBO)/curatO/$(TODAY)/curatO.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--annotation-file src/annotations.ttl \
-	--output ./build/curatO.owl
+	--output curatO.owl
 # 	--output ./build/$(TODAY)/curatO.owl
 
 release: build/template build/merge build/reason build/annotate
